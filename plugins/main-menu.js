@@ -10,6 +10,7 @@ let tags = {
   'econ': 'NIVEL & ECONOMIA',
   'rg': 'REGISTRO',
   'sticker': 'STICKER',
+  'frases': 'FRASES',
   'img': 'IMAGEN',
   'maker': 'MAKER',
   'prem': 'PREMIUM',
@@ -28,17 +29,17 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *Loops  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
 👋🏻 _Hola_ *%name*
-🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
-📈 Tiempo activo : %muptime
+*🧿 Nivel* %level
+*👥 Usuarios* : %totalreg
+*🟢 Tiempo activo* : %muptime
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+*•⏰ Hora:* %time
+*•📅 Fecha:* %date
+*•🗓️ Dia:* %week
+
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -151,15 +152,15 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-     /*conn.sendHydrated2(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
+     /*conn.sendHydrated2(m.chat, text.trim(), '*▢ Loops*  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
+
+      ['⌬ Grupos', `${_p}gploops`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
+    conn.sendButton(m.chat, text.trim(), '*▢ Loops* ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
+
+      ['⌬ Grupos', `${_p}gploops`]
     ],m, rpl)
   
     m.react('📚') 
@@ -174,7 +175,7 @@ handler.tags = ['main']
 handler.command = ['menu', 'help', 'menú'] 
 handler.register = false
 
-handler.exp = 3
+handler.exp = 100
 
 export default handler
 

@@ -15,6 +15,7 @@ let tags = {
   'maker': 'MAKER',
   'prem': 'PREMIUM',
   'group': 'GRUPO',
+  'info': 'HERRAMIENTAS DEL GRUPO',
   'nable': 'EN/DISABLE OPCIONES', 
   'nime': 'ANIME',
   'rnime': 'ANIME REACCION',

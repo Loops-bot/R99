@@ -1,20 +1,26 @@
 
+ 
+
 <p align="center"> 
+  <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R98++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
+</p>
+	
+<p  align="center"> 
 <img src="https://gpvc.arturio.dev/FG98F" />
 <p/>
 <p align="center">
-<a href="https://github.com/FG98F"><img title="Author" src="https://img.shields.io/badge/DyLux Bot-black?style=for-the-badge&logo=whatsApp"></a>
+<a href="https://github.com/Loops-bot"><img title="Author" src="https://img.shields.io/badge/Loops Bot-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/FG98F?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/FG98F?label=Followers&style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/FG98F/dylux-fg?&style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/network/members"><img title="Fork" src="https://img.shields.io/github/forks/FG98F/dylux-fg?style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/FG98F/dylux-fg?label=Watching&style=social"></a>
+<a href="https://github.com/FG98F?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Loops-bot?label=Followers&style=social"></a>
+<a href="https://github.com/FG98F/dylux-fg/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Loops-bot/R98?&style=social"></a>
+<a href="https://github.com/FG98F/dylux-fg/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Loops-bot/R98?style=social"></a>
+<a href="https://github.com/FG98F/dylux-fg/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Loops-bot/R98?label=Watching&style=social"></a>
 </p>
 
 
 
-<h3 align="center">WHATSAPP BOT</h3>
+<h3 align="center" > WHATSAPP BOT </h3>
 
 ***
 ### Información
@@ -25,14 +31,14 @@
 -  [click aquí](https://api-fgmods.ddns.net)
 
 ### Ejemplo 
-En caso de duda, antes de instalar dylux-bot, pruebe el bot aquí
+En caso de duda, antes de instalar Loops-bot, pruebe el bot aquí
 
-[![WhatsApp](https://img.shields.io/badge/DyLux-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/fg98ff) 
+[![WhatsApp](https://img.shields.io/badge/Loops-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/Loops-bot)
 
 ***
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FG98F/dylux-fg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Loops-bot/R98)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -48,8 +54,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/FG98F/dylux-fg
-$ cd dylux-fg
+$ git clone https://github.com/Loops-bot/R99
+$ cd R99
 $ npm i 
 $ npm start
 ```
@@ -58,17 +64,15 @@ $ npm start
 ---------
 
 
-## BOXMINE
 
-<a href="https://dash.boxmineworld.com/register?ref=Mb0BN5ny"><img src="https://k.top4top.io/p_2413wh2bh0.jpg" width="450" height="230" alt="BoxMine"/></a>
 
-Instale el bot con un solo click! para que este activo 24/7
 
----------
-* Create una cuenta  [`aquí`](https://dash.boxmineworld.com/register?ref=Mb0BN5ny)
-* Tutorial [`Click Aquí`](https://youtu.be/xFqjKN1Qt80)
 
-* Dashboard [`Click aquí`](https://dash.boxmineworld.com)
-* Panel [`Click aquí`](https://panel.boxmineworld.com/)
 
----------
+
+
+
+
+
+
+

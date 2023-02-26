@@ -20,7 +20,7 @@ https://chat.whatsapp.com/COzjNdttCBSG5C5SN7jacE
  https://instabio.cc/Loops-bot
 
 ▢ *Telegram*
-• 
+• (vacío)
 
  ▢ *PayPal*
 • https://www.paypal.me/Loopsbot

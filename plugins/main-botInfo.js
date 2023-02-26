@@ -52,25 +52,22 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *FG98*
-▢ Instagram :
-  • https://instagram.com/fg98_ff
-▢ WhatsApp :
+  *R99*
+*▢ Instagram :*
+  • https://instagram.com/loopsbot_r98
+▢ WhatsApp :*
   • (escribe solo si es necesario) 
-▢ GitHub :
-  • https://github.com/FG98F
-▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
-  • https://youtube.com/fg98f
+*▢ GitHub :*
+  • https://github.com/Loops-bot
+
+*▢ YouTube :* 
+  • https://www.youtube.com/@jorgefloreslopez5878
   
  *≡ HELPERS*
-  *CRISS*
+  *CRIWILOP*
 ▢ Instagram : https://www.instagram.com/sayurizuniga3
 ▢ WhatsApp : wa.me/
-  *ANDREA*
+  *VÍCTOR EMANUEL*
 ▢ Instagram : https://
 ▢ WhatsApp : wa.me/573125484672
 
@@ -83,7 +80,7 @@ ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.m
 `
 conn.sendButton(m.chat, infobt, fgig, null, [
   ['ꨄ︎ Apoyar', `${usedPrefix}donate`],
-   ['⌬ Grupos', `${usedPrefix}gpdylux`]
+   ['⌬ Grupos', `${usedPrefix}gploops`]
  ], m)
 
 }

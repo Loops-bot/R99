@@ -1,6 +1,6 @@
 { 
-    "name": "dylux-bot",
-    "version": "2.2.2",
+    "name": "Loops-bot",
+    "version": "3.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/dylux-fg",
+    "homepage": "https://github.com/Loops-bot/R99",
     "author": {
         "name": "FG98"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FG98F/dylux-bot.git"
+        "url": "git+https://github.com/Loops-bot/R99.git"
     },
     "bugs": {
-        "url": "https://github.com/FG98F/dylux-bot/issues"
+        "url": "https://github.com/Loops-bot/R99/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

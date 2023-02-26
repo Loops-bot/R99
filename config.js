@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59172945992', 'FG98', true],
+  ['50494939792', 'Loops ᴮᴼᵀ ✨', true],
   ['5492622271736'], 
   ['5492622271736'] 
 ] //Numeros de owner 
@@ -25,13 +25,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
-global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.dygp = 'https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU'
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.packname = 'Loops┃ᴮᴼᵀ' 
+global.author = '@R99' 
+global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/Loopsbot_r98\n' 
+global.dygp = 'https://chat.whatsapp.com/FBt84FrXGG51wQul7vT8Gc'
+global.fgsc = 'https://github.com/Loops-bot/R99' 
+global.fgyt = 'https://www.youtube.com/@jorgefloreslopez5878'
+global.fgpyp = 'https://www.paypal.me/Loopsbot'
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'

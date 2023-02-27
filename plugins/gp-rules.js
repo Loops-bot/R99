@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn }) => {
 
-m.reply(`\n
+m.reply(`{
 ≡  *Loopsᴮᴼᵀ ┃ RULES*
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈

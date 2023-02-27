@@ -6,7 +6,7 @@ m.reply(`\n≡  *loopsᴮᴼᵀ*
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢📜 *normas del Grupo*
 
-▢✅ el tema principal son los Bots de WhatsApp pero se permite hacer preguntas sobre cualquier otro tema.
+▢✅ el tema principal son los bots de whatsApp pero se permite hacer preguntas sobre cualquier otro tema.
 ▢⚠️ no hacer spam: compartir links no autorizados, ads, cryptos, spam de comandos
 ▢⚠️ respetar a los usuarios del grupo
 ▢⚠️ no robar si están jugando al */slot*

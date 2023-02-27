@@ -1,8 +1,7 @@
 
 let handler = async (m, { conn }) => {
 
-m.react('global.wait')
-  
+ m.react('⌛')
 let txt = ` ≡  *Loopsᴮᴼᵀ*
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢📜 *normas del grupo*

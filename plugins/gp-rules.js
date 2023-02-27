@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn }) => {
 
-
+m.reply(`
 ≡  *Loopsᴮᴼᵀ ┃ RULES*
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
@@ -19,7 +19,7 @@ let handler = async (m, { conn }) => {
 
 ▢ Incumplir las reglas significa podrías recibir un castigo o ser expulsado.
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-}
+`}
 handler.help = ['rules']
 handler.tags = ['group']
 handler.command = ['rules', 'rule', 'Rules', 'RULES'] 

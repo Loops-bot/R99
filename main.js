@@ -165,6 +165,7 @@ global.reloadHandler = async function (restatConn) {
   conn.bye = 'adiós @user'
   conn.spromote = '@user promovió a admin'
   conn.sdemote = '@user degradado'
+  conn.srules = 'Escribe tu descripción para el bot aquí escribe */setrules*
   conn.sDesc = 'La descripción ha sido cambiada a \n@desc'
   conn.sSubject = 'El nombre del grupo ha sido cambiado a \n@group'
   conn.sIcon = 'El icono del grupo ha sido cambiado'

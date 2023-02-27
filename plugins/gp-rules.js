@@ -4,7 +4,7 @@ m.reply(`
 *┌──────────────────────── ◈*
 ┃ *📜Normas del Grupo*
 ┃
-┃ ✅El tema principal son los Bots de WhatsApp pero se permite hacer preguntas sobre cualquier otro tema.
+┃ *✅El tema principal son los Bots de WhatsApp pero se permite hacer preguntas sobre cualquier otro tema.*
 ┃
 ┃ ⚠️No hacer spam: compartir links no autorizados, ads, cryptos, spam de comandos
 ┃
@@ -14,7 +14,7 @@ m.reply(`
 ┃
 ┃ 🚫Contenido o demás relacionado con +18 🔞
 ┃
-┃ Incumplir las reglas significa podrías recibir un castigo o ser expulsado.
+┃ *Incumplir las reglas significa podrías recibir un castigo o ser expulsado.*
 *└──────────────────────── ◈*
 
 }

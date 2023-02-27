@@ -85,7 +85,7 @@ const connectionOptions = {
   printQRInTerminal: true,
   auth: state,
   logger: pino({ level: 'silent'}),
-  browser: ['dylux-bot','Safari','1.0.0']
+  browser: ['loops-bot','Safari','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)

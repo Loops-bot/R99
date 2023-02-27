@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
 m.reply(`\n≡  *loopsᴮᴼᵀ*
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-▢📜 *normas del Grupo*
+▢📜 *normas del grupo*
 
 ▢✅ el tema principal son los bots de whatsApp pero se permite hacer preguntas sobre cualquier otro tema.
 ▢⚠️ no hacer spam: compartir links no autorizados, ads, cryptos, spam de comandos

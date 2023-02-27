@@ -13,9 +13,12 @@ m.reply(` ≡  *Loopsᴮᴼᵀ*
 ▢incumplir las reglas significa podrías recibir un castigo o ser expulsado.
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈`)
 m.react('⏳')
+m.react('✅')
+  
 }
 handler.help = ['rules']
 handler.tags = ['group']
 handler.command = ['rules', 'rule', 'Rules', 'RULES'] 
-
+handler.group = true
+  
 export default handler

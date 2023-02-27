@@ -111,6 +111,8 @@ export async function handler(chatUpdate) {
                     chat.sPromote = ''
                 if (!('sDemote' in chat))
                     chat.sDemote = ''
+                if (!('sRules' in chat))
+                    chat.sRules = ''
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
@@ -132,6 +134,7 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
+                    sRules:'',
                     delete: true,
                     antiLink: false,
                     viewonce: false,
@@ -584,10 +587,10 @@ global.dfail = (type, m, conn) => {
         private: '📮 Este comando solo se puede usar en el chat *privado del Bot*',
         admin: '🛡️ Este comando es solo para *Admins* del grupo',
         botAdmin: '💥 ¡Para usar este comando debo ser *Administrador!*',
-        unreg: '📇 Regístrese para usar esta función  Escribiendo:\n\n*/reg nombre.edad*\n\n📌Ejemplo : */reg dylux.16*',
+        unreg: '📇 Regístrese para usar esta función  Escribiendo:\n\n*/reg nombre.edad*\n\n📌Ejemplo : */reg Loops.16*',
         restrict: '🔐 Esta característica está *deshabilitada*'
     }[type]
-    if (msg) return conn.sendButton(m.chat, msg, fgig, null, [['🔖 OK', 'khajs'], ['⦙☰ Menu', '/menu'] ], m)
+    if (msg) return conn.sendButton(m.chat, msg, fgig, null, [['🔖 OK', 'OK'], ['⦙☰ Menu', '/menu'] ], m)
 }
 
 let file = global.__filename(import.meta.url, true)

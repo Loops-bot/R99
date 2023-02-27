@@ -2,7 +2,7 @@
 let handler = async (m, { conn }) => {
 
  m.react('⌛')
-let txt = ` ≡  *Loopsᴮᴼᵀ*
+m.reply(` ≡  *Loopsᴮᴼᵀ*
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢📜 *normas del grupo*
 
@@ -12,7 +12,7 @@ let txt = ` ≡  *Loopsᴮᴼᵀ*
 ▢⚠️ no robar si están jugando al */slot*
 ▢🚫 contenido o demás relacionado con +18 🔞
 ▢incumplir las reglas significa podrías recibir un castigo o ser expulsado.
-◈ ━━━━━━━━━━━━━━━━━━━━ ◈`
+◈ ━━━━━━━━━━━━━━━━━━━━ ◈`)
 
 }
 handler.help = ['rules']

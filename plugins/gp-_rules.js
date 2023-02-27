@@ -2,7 +2,8 @@
 let handler = async (m, { conn }) => {
 
 m.reply(`global.wait`)
-let txt `≡  *Loopsᴮᴼᵀ*
+  
+let txt = ` ≡  *Loopsᴮᴼᵀ*
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
 ▢📜 *normas del grupo*
 
@@ -12,7 +13,7 @@ let txt `≡  *Loopsᴮᴼᵀ*
 ▢⚠️ no robar si están jugando al */slot*
 ▢🚫 contenido o demás relacionado con +18 🔞
 ▢incumplir las reglas significa podrías recibir un castigo o ser expulsado.
-◈ ━━━━━━━━━━━━━━━━━━━━ ◈
+◈ ━━━━━━━━━━━━━━━━━━━━ ◈`
 
 }
 handler.help = ['rules']

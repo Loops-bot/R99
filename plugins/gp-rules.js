@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn }) => {
 
-m.reply(`
+m.fakereply(`
 ≡  *Loopsᴮᴼᵀ ┃ RULES*
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈

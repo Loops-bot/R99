@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn }) => {
 
-m.reply(`global.wait`)
+m.react('global.wait')
   
 let txt = ` ≡  *Loopsᴮᴼᵀ*
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈

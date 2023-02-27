@@ -19,7 +19,8 @@ m.reply(`
 
 ▢ Incumplir las reglas significa podrías recibir un castigo o ser expulsado.
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-`}
+
+}
 handler.help = ['rules']
 handler.tags = ['group']
 handler.command = ['rules', 'rule', 'Rules', 'RULES'] 

@@ -163,7 +163,7 @@ global.reloadHandler = async function (restatConn) {
 
   conn.welcome = 'Hola, @user\nBienvenido a @group'
   conn.bye = 'adiós @user'
-  conn.spromote = '@user promovió a admin'
+  conn.spromote = '@user promovido a admin ◈ ─────────── ◈ *Hora* : %time *Fecha* : %date *Dia* : %week'
   conn.sdemote = '@user degradado'
 
   conn.sDesc = 'La descripción ha sido cambiada a \n@desc'

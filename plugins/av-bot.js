@@ -12,7 +12,7 @@ conn.sendButton(m.chat, `Hola *${name}* \n \nNecesitas ayuda? \n`, fgig, null, [
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(bot|dylux)$/i
+handler.customPrefix = /^(bot|loops)$/i
 handler.command = new RegExp
 
 export default handler

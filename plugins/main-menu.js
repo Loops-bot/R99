@@ -37,17 +37,21 @@ const defaultMenu = {
 *🧿 Nivel* %level
 *👥 Usuarios* : %totalreg
 *🟢 Tiempo activo* : %muptime
-─────────────
-*•⏰ Hora:* %time
-*•📅 Fecha:* %date
-*•🗓️ Dia:* %week
-
-─────────────
+───────────────────────
+•⏰ *Hora:* %time
+•📅 *Fecha:* %date
+•🗓️ *Dia:* %week
+──────◈_INFO BOT_◈───────
+👤 *Owner*: @50494939792
+💻 *Versión*: %version
+🗃️ *Lib*: Baileys-MD
+🧪 *Modo:* ${global.opts['self'] ? 'Privado': 'Público'}
+────────────────────────
 %readmore
 Ⓟ = Premium
 ⓓ = Diamantes
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *LISTA DE MENU*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
@@ -157,12 +161,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
      /*conn.sendHydrated2(m.chat, text.trim(), '*▢ Loops*  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
 
-      ['⌬ Grupos', `${_p}gploops`]
+      ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
     conn.sendButton(m.chat, text.trim(), '*▢ Loops* ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
 
-      ['⌬ Grupos', `${_p}gploops`]
+      ['⌬ Grupos', `${_p}gpdylux`]
     ],m, rpl)
   
     m.react('📚') 

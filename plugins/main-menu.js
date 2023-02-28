@@ -20,7 +20,7 @@ let tags = {
   'nime': 'ANIME',
   'rnime': 'ANIME REACCION',
   'dl': 'DESCARGAS',
-  'audios': 'EFECTOS DE AUDIOS',
+  'audio': 'EFECTOS DE AUDIOS',
   'tools': 'TOOLS',
   'fun': 'FUN',
   'cmd': 'DATABASE',

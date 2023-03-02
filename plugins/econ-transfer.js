@@ -1,4 +1,4 @@
-const items = ['diamond', 'exp']
+const items = ['diamond', 'limit']
 let confirmation = {}
 
 async function handler(m, { conn, args, usedPrefix, command }) {
@@ -9,12 +9,12 @@ async function handler(m, { conn, args, usedPrefix, command }) {
 *${usedPrefix + command}*  [tipo] [cantidad] [@user]
 
 📌 Ejemplo : 
-*${usedPrefix + command}* exp 65 @${m.sender.split('@')[0]}
+*${usedPrefix + command}* diamond 65 @${m.sender.split('@')[0]}
 
 📍 Artículos transferibles
 ┌──────────────
 ▢ *diamond* = Diamante 💎
-▢ *exp* = Experiencia 🆙
+▢ *coin* = Monedas 🪙
 └──────────────
 `.trim()
     const type = (args[0] || '').toLowerCase()

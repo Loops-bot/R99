@@ -12,7 +12,7 @@ let handler = async (m, {conn, isPrems }) => {
 🎁 *RECOMPENSA DIARIA*
 
 ▢ *Has recibido:*
-🆙 *COINS* : +${isPrems ? prem : free}`)
+🪙 *COINS* : +${isPrems ? prem : free}`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
 }
 handler.help = ['daily']

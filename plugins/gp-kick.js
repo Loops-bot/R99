@@ -8,9 +8,8 @@ let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
 let owr = m.chat.split`-`[0]
 await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
 m.reply(`✅ Usuario eliminado`) 
-
+let pp = 'src/mp3/ban.mp3'
 }
-
 handler.help = ['kick @user']
 handler.tags = ['group']
 handler.command = ['kick', 'expulsar'] 

@@ -1,9 +1,9 @@
-//import db from '../lib/database.js'
+/*import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
-//import { plugins } from '../lib/plugins.js'
+import { plugins } from '../lib/plugins.js'
 let tags = {
   'main': 'ACERCA DE',
   'game': 'JUEGOS',
@@ -154,11 +154,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-     /*conn.sendHydrated2(m.chat, text.trim(), '*▢ Loops*  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
+     conn.sendHydrated2(m.chat, text.trim(), '*▢ Loops*  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
 
       ['⌬ Grupos', `${_p}gpdylux`]
-    ], m)*/  
+    ], m)  
     conn.sendButton(m.chat, text.trim(), '*▢ Loops* ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
 
@@ -222,4 +222,4 @@ var ase = new Date();
                 case 23: waktoonyabro = `Que tengas una linda noche 🌃`; break;
             }
             var saludo = "" + waktoonyabro;
-
+*/

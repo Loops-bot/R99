@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
   
   if (exp < 1) throw '✳️ Mínimo es  *1*'
   let users = global.db.data.users
-  users[who].exp += exp
+  users[who].limit += exp
 
   await m.reply(`≡ *EPX AÑADIDO*
 ┌──────────────

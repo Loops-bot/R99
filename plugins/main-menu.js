@@ -41,11 +41,7 @@ const defaultMenu = {
 •⏰ *Hora:* %time
 •📅 *Fecha:* %date
 •🗓️ *Dia:* %week
-──────◈_INFO BOT_◈───────
-👤 *Owner*: @50494939792
-💻 *Versión*: %version
-🗃️ *Lib*: Baileys-MD
-🧪 *Modo:* ${global.opts['self'] ? 'Privado': 'Público'}
+
 ────────────────────────
 %readmore
 Ⓟ = Premium

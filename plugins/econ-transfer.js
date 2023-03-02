@@ -14,7 +14,8 @@ async function handler(m, { conn, args, usedPrefix, command }) {
 📍 Artículos transferibles
 ┌──────────────
 ▢ *diamond* = Diamante 💎
-▢ *coin* = Monedas 🪙
+▢ *coins* = Monedas 🪙
+▢ Use limit para transferir las coins
 └──────────────
 `.trim()
     const type = (args[0] || '').toLowerCase()
@@ -73,7 +74,7 @@ handler.before = async m => {
 
 handler.help = ['transfer'].map(v => v + ' [tipo] [monto] [@tag]')
 handler.tags = ['econ']
-handler.command = ['payxp','paydi', 'transfer', 'darxp','dardi',]
+handler.command = ['payco','paydi', 'transfer', 'darco','dardi',]
 
 handler.disabled = false
 

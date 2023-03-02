@@ -11,10 +11,10 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let res = w.data.result*/
     let anu = (await axios.get('https://raw.githubusercontent.com/fgmods/fg-team/main/games/work.json')).data
     let res = pickRandom(anu)
- global.db.data.users[m.sender].exp += hasil
+ global.db.data.users[m.sender].limit += hasil
 
   m.reply(`
-‣ ${res.fgwork} *${hasil} XP*
+‣ ${res.fgwork} *${hasil} Coins*
 `)
   global.db.data.users[m.sender].lastwork = new Date * 1
 }

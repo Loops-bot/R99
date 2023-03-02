@@ -7,12 +7,12 @@ const prem = 20000
 let handler = async (m, {conn, isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
   if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `🎁 *Ya recogiste tu recompensa diaria*\n\n🕚 Vuelve en *${msToTime(time - new Date())}* `
-  global.db.data.users[m.sender].exp += isPrems ? prem : free
+  global.db.data.users[m.sender].limit += isPrems ? prem : free
   m.reply(`
 🎁 *RECOMPENSA DIARIA*
 
 ▢ *Has recibido:*
-🆙 *XP* : +${isPrems ? prem : free}`)
+🆙 *COINS* : +${isPrems ? prem : free}`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
 }
 handler.help = ['daily']

@@ -5,9 +5,9 @@ let handler = async (m, { conn }) => {
   let hasil = Math.floor(Math.random() * 5000)
   let time = global.db.data.users[m.sender].lastmiming + 14400000
   if (new Date - global.db.data.users[m.sender].lastmiming < 14400000) throw `⏳ _Espera_ *${msToTime(time - new Date())}* _para regresar a la mina_`
-  global.db.data.users[m.sender].exp += hasil
+  global.db.data.users[m.sender].limit += hasil
   m.reply(`
-🎉 Genial! minaste *${hasil} XP*`)
+🎉 Genial! minaste *${hasil} Coins*`)
   global.db.data.users[m.sender].lastmiming = new Date * 1
 }
 handler.help = ['mine']

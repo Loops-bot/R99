@@ -12,7 +12,7 @@ let _muptime
       }) * 1000
     }
     let muptime = clockString(_muptime)
-		let bio = `\n🟢 Tiempo Activo ${muptime}\n\n ┃ 💎  By r98 ┃ *Biografía de mi owner:* Aveses me siento *mal* pero acomodo la silla y me siento *bien*`
+		let bio = `\n🟢 Tiempo Activo ${muptime}\n\n ┃ 💎  By r98 ┃   Biografía de mi owner: Aveses me siento mal pero acomodo la silla y me siento bien`
 		await this.updateProfileStatus(bio).catch(_ => _)
 		setting.status = new Date() * 1
 

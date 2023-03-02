@@ -154,11 +154,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-     conn.sendHydrated2(m.chat, text.trim(), '*▢ Loops*  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-
-      ['⌬ Grupos', `${_p}gpdylux`]
-    ], m)  
     conn.sendButton(m.chat, text.trim(), '*▢ Loops* ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
 

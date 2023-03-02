@@ -1,9 +1,9 @@
-/*import db from '../lib/database.js'
+//import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
-import { plugins } from '../lib/plugins.js'
+//import { plugins } from '../lib/plugins.js'
 let tags = {
   'main': 'ACERCA DE',
   'game': 'JUEGOS',
@@ -222,4 +222,4 @@ var ase = new Date();
                 case 23: waktoonyabro = `Que tengas una linda noche 🌃`; break;
             }
             var saludo = "" + waktoonyabro;
-*/
+

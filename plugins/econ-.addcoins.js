@@ -11,7 +11,7 @@ let handler = async (m, { conn, text }) => {
   let limit = parseInt(txt)
   let exp = limit
   
-  if (exp < 1) throw '✳️ Mínimo es  *1*'
+  if (limit < 1) throw '✳️ Mínimo es  *1*'
   let users = global.db.data.users
   users[who].exp += limit 
 

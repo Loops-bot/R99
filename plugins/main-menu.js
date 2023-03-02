@@ -222,4 +222,4 @@ var ase = new Date();
                 case 23: waktoonyabro = `Que tengas una linda noche 🌃`; break;
             }
             var saludo = "" + waktoonyabro;
-*/
+

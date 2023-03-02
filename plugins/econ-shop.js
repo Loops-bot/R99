@@ -11,7 +11,7 @@ let handler = async (m, { conn, command, args }) => {
     conn.reply(m.chat, `
 ┌─「 *NOTA DE PAGO* 」
 ‣ *Compra nominal* : + ${count}💎 
-‣ *Gastado* : -${xpperdiamond * count} XP
+‣ *Gastado* : -${limitperdiamond * count} coins
 └──────────────`, m)
   } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *coins* para comprar *${count}* Diamantes💎\n\n Puedes conseguir *COINS* usando los comandos del *menú juegos y economía*`, m)
 }

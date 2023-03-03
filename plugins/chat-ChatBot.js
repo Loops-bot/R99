@@ -18,10 +18,10 @@ let fkowner = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@
 if ((m.isBaileys && m.fromMe) || m.fromMe ) return true
 if (chat.chatbot) {
 //━━━━━━━━◜🌾Textos🌾◞━━━━━━━━
-let texto1A = /hola/i
+let texto1A = /^(hola)$/i 
 let texto1B = texto1A.exec(m.text)
 
-let texto2A = /si sirve|Si sirve|ci sirve|Ci sirve/i
+let texto2A = /^(si sirve|Si sirve|ci sirve|Ci sirve)$/i
 let texto2B = texto2A.exec(m.text)
 //━━━━━━━━━━━━━━━━━━━━━━━
 

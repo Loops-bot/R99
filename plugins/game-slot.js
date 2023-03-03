@@ -13,8 +13,8 @@ Cuanto quieres apostar?
     let time = users.lastslot + 10000
     if (new Date - users.lastslot < 10000) throw `⏳ Espere *${msToTime(time - new Date())}* para usar de nuevo`
     if (apuesta < 100) throw '✳️ Mínimo de la apuesta es *100 XP*'
-    if (users.exp < apuesta) {
-        throw `✳️ No tienes suficiente *XP*`
+    if (users.limit < apuesta) {
+        throw `✳️ No tienes suficiente *Coins*`
     }
 
     let emojis = ["🕊️", "🦀", "🦎"];
@@ -42,13 +42,13 @@ Cuanto quieres apostar?
     let end;
     if (a == b && b == c) {
         end = `🎁 GANASTE\n *+${apuesta + apuesta} XP*`
-        users.exp += apuesta + apuesta
+        users.limit += apuesta + apuesta
     } else if (a == b || a == c || b == c) {
-        end = `🔮 Casi lo logras sigue intentando :) \nTen *+${reg} XP*`
-        users.exp += reg
+        end = `🔮 Casi lo logras sigue intentando :) \nTen *+${reg} coin*`
+        users.limit += reg
     } else {
-        end = `😔 Perdiste  *-${apuesta} XP*`
-        users.exp -= apuesta
+        end = `😔 Perdiste  *-${apuesta} Coins*`
+        users.limit -= apuesta
     }
     users.lastslot = new Date * 1
     return await m.reply(

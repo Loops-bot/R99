@@ -5,12 +5,12 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['50494939792', '⍣Loops ᴮᴼᵀ࿐ (creador)', true],
   ['573244488043', '⍣ᴄʀɪᴡɪʟᴏᴘ࿐ (desarrollador)', true], 
-  ['', true],
+  ['59897030099', '⍣ᴠɪᴄᴛᴏʀ ᴇᴍᴀɴᴜᴇʟ࿐ (desarrollador 2)' true],
   ['50499258549'] 
 ] //Numeros de owner 
 
 global.mods = ['573125484672'] 
-global.prems = ['50494939792']
+global.prems = ['50494939792', '59897030099', '573244488043']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -27,7 +27,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'Loops┃ᴮᴼᵀ' 
-global.author = '@R99' 
+global.author = '@R98' 
 global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/Loopsbot_r98\n' 
 global.dygp = 'https://chat.whatsapp.com/FBt84FrXGG51wQul7vT8Gc'
 global.fgsc = 'https://github.com/Loops-bot/R99' 

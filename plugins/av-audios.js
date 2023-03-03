@@ -16,7 +16,7 @@ handler.all = async function (m) {
     let av = 'https://e.top4top.io/m_2437afchn1.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
-  if (/^.ban$/i.test(m.text) ) {
+  if (/^.kick$/i.test(m.text) ) {
     let av = 'https://k.top4top.io/m_2617u70qu0.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }

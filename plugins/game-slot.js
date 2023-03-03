@@ -12,7 +12,7 @@ Cuanto quieres apostar?
     let users = global.db.data.users[m.sender]
     let time = users.lastslot + 10000
     if (new Date - users.lastslot < 10000) throw `⏳ Espere *${msToTime(time - new Date())}* para usar de nuevo`
-    if (apuesta < 100) throw '✳️ Mínimo de la apuesta es *100 XP*'
+    if (apuesta < 100) throw '✳️ Mínimo de la apuesta es *100 Coins*'
     if (users.limit < apuesta) {
         throw `✳️ No tienes suficiente *Coins*`
     }
@@ -44,7 +44,7 @@ Cuanto quieres apostar?
         end = `🎁 GANASTE\n *+${apuesta + apuesta} XP*`
         users.limit += apuesta + apuesta
     } else if (a == b || a == c || b == c) {
-        end = `🔮 Casi lo logras sigue intentando :) \nTen *+${reg} coin*`
+        end = `🔮 Casi lo logras sigue intentando :) \nTen *+${reg} Coins*`
         users.limit += reg
     } else {
         end = `😔 Perdiste  *-${apuesta} Coins*`

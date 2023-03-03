@@ -15,6 +15,7 @@ let username = conn.getName(who)
 let math = max - xp
 let prem = global.prems.includes(who.split`@`[0])
 let sn = createHash('md5').update(who).digest('hex')
+let av = './src/mp3/perfil.mp3'
 
 let str = `
 ┌───「 *PERFIL* 」
@@ -32,6 +33,7 @@ let str = `
 ▢ *⭐ Premium* : ${prem ? 'Si' : 'No'}
 └──────────────`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
+    conn.sendFile(m.chat, av, 'audio.mp3', null, m, true,{type:'audioMessage',ppt:true})
     m.react(done)
 
 }

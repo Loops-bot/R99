@@ -3,7 +3,7 @@ let handler = async (m, { conn, participants, usedPrefix, command }) => {
 	
 let kickte = `✳️ Uso correcto del comamdo\n*${usedPrefix + command}* @tag`
 
-let pp = './src/mp3/kick.mp3'
+let av = './src/mp3/kick.mp3'
 
 if (!m.mentionedJid[0] && !m.quoted) return m.reply(kickte, m.chat, { mentions: conn.parseMention(kickte)}) 
 let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender

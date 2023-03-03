@@ -5,8 +5,8 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['50494939792', '⍣Loops ᴮᴼᵀ࿐ (creador)', true],
   ['573244488043', '⍣ᴄʀɪᴡɪʟᴏᴘ࿐ (desarrollador)', true], 
-  ['59897030099', '⍣ᴠɪᴄᴛᴏʀ ᴇᴍᴀɴᴜᴇʟ࿐ (desarrollador 2)', true],
-  ['50499258549'] 
+  ['59897030099', '⍣ᴠɪᴄᴛᴏʀ ᴇᴍᴀɴᴜᴇʟ࿐ (desarrollador 2)', true]
+ 
 ] //Numeros de owner 
 
 global.mods = ['573125484672'] 

@@ -3,7 +3,7 @@ let handler = async (m, { conn}) => {
 
 let name = conn.getName(m.sender)
 
-conn.reply(m.chat, `Hola @${who.split("@s.whatsapp.net")[0]} soy ⍣Loops ᴮᴼᵀ࿐ `, fkowner, { mentions: [who]})
+conn.reply(m.chat, `Hola @${who.split("@s.whatsapp.net")[0]} soy ⍣Loops ᴮᴼᵀ࿐ `)
 }
 
 handler.customPrefix = /^(hola)$/i

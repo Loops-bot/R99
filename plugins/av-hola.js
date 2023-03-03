@@ -12,7 +12,7 @@ conn.sendButton(m.chat, `Hola *${name}* \nMi creador no se encuentra en linea \n
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(bro|jorge|hola|jorgito|Jorge|Hola|Jorgito)$/i
+handler.customPrefix = /^(bro|jorge|jorgito|perro)$/i
 handler.command = new RegExp
 
 export default handler

@@ -12,6 +12,7 @@ let av = './src/mp3/kick.mp3'
 conn.sendFile(m.chat, av, 'kick.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	
 
+
 handler.help = ['kick @user']
 handler.tags = ['group']
 handler.command = ['kick', 'expulsar'] 

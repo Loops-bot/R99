@@ -1,5 +1,5 @@
 
-let ro = 3000
+let ro = 4000
 let handler = async (m, { conn, usedPrefix, command}) => {
     let time = global.db.data.users[m.sender].lastrob + 7200000
     if (new Date - global.db.data.users[m.sender].lastrob < 7200000) throw `⏱️¡Hey! Espera *${msToTime(time - new Date())}* para volver a robar`
@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     if (!(who in global.db.data.users)) throw `✳️ El usuario no se encuentra en mi base de datos`
     let users = global.db.data.users[who]
     let rob = Math.floor(Math.random() * ro)
-    if (users.limit < rob) return m.reply(`🔖 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un podre v":`, null, { mentions: [who] })    
-   global.db.data.users[m.sender].limit += rob
-   global.db.data.users[who].limit -= rob
+    if (users.coins < rob) return m.reply(`🔖 @${who.split`@`[0]} tiene menos de *${ro} xp*\nNo robes a un podre v":`, null, { mentions: [who] })    
+   global.db.data.users[m.sender].coins += rob
+   global.db.data.users[who].coins -= rob
   
     m.reply(`
   ‣ Robaste *${rob} COINS* a @${who.split`@`[0]}

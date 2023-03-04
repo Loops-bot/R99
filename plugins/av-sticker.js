@@ -1,19 +1,5 @@
-//▪CÓDIGO BY ALBERTO9883 PRROS XD▪
-//▪NyanCatBot - MD▪
-
-import MessageType from '@adiwajshing/baileys'
-import util from 'util'
-import fs from 'fs'
-import path from 'path'
-import fetch from 'node-fetch'
-
 let handler = m => m
-
-handler.before = async function (m, { conn, command, MessageType, text, usedPrefix, isAdmin }) {
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let chat = global.db.data.chats[m.chat]
-let user = global.db.data.users[who]
-let username = conn.getName(who)
+handler.all = async function (m) {
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
 
 if ((m.isBaileys && m.fromMe) || m.fromMe ) return true

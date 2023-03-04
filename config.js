@@ -36,7 +36,7 @@ global.fgpyp = 'https://www.paypal.me/Loopsbot'
 global.fglog = 'https://i.imgur.com/Owmb93c.png'
 
 //᭥🌇᭢━━━━━━◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞━━━━━━᭥🌇᭢
-global.imgmenu = fs.readFileSync('./src/fg_logo.jpg')
+global.imgmenu = './src/fg_logo.jpg'
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'

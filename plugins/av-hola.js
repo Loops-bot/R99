@@ -5,7 +5,7 @@ let name = conn.getName(m.sender)
 let av = `./src/mp3/${pickRandom(["cri", "and"])}.mp3`
 
 conn.sendButton(m.chat, `Hola *${name}* \nMi creador no se encuentra en linea \n \nEscribele más tarde \n`, fgig, null, [
-     ['Si', 'khajs'], ['No']
+     ['Si Esta Bien \n:v', 'Si Esta Bien \n:v'], ['No quiero', 'porque']
     ], m)
 
 } 

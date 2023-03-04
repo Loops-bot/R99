@@ -1,13 +1,13 @@
 
 //import db from '../lib/database.js'
 
-const free = 5000
+const free = 1500
 const prem = 20000
 
 let handler = async (m, {conn, isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
   if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `🎁 *Ya recogiste tu recompensa diaria*\n\n🕚 Vuelve en *${msToTime(time - new Date())}* `
-  global.db.data.users[m.sender].limit += isPrems ? prem : free
+  global.db.data.users[m.sender].coins += isPrems ? prem : free
   m.reply(`
 🎁 *RECOMPENSA DIARIA*
 

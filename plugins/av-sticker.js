@@ -2,18 +2,18 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^xd|XD|Xd|xD$/i.test(m.text) ) {
-      let vn = './storage/sticker/xd.webp'
-      this.getFile(m.chat, vn, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true })
+      let av = './storage/sticker/xd.webp'
+      this.sendFile(m.chat, av, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true })
      }
 
   if (/^buenas tardes$/i.test(m.text) ) {
-     let vn = ''
-     this.getFile(m.chat, vn, '', null, m, true, { type: 'audioMessage', ptt: true })
+     let av = 'bot'
+     this.sendFile(m.chat, av, 'bot', null, m, true, { type: 'audioMessage', ptt: true })
    }
 
   if (/^buenas noches$/i.test(m.text) ) {
-    let vn = ''
-    this.getFile(m.chat, vn, '', null, m, true, { type: 'audioMessage', ptt: true })
+    let av = 'bot'
+    this.sendFile(m.chat, av, 'bot', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
 return !0

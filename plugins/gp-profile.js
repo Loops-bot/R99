@@ -33,7 +33,7 @@ let str = `
 ▢ *⭐ Premium* : ${prem ? 'Si' : 'No'}
 └──────────────`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
-    conn.sendFile(m.chat, av, 'audio.mp3', null, m, true,{type:'audioMessage',ppt:true})
+    conn.sendFile(m.chat, av, 'perfil.mp3', null, m, true,{type:'audioMessage',ppt:true})
     m.react(done)
 
 }

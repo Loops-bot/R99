@@ -6,15 +6,15 @@ if ((m.isBaileys && m.fromMe) || m.fromMe ) return true
 
 if (chat.chatbot) {
 //▪AQUÍ AGREGA LOS COMANDOS▪
-let sticker1A = /Xd|xd|xD|XD/i
+let sticker1A = (/^Xd|xd|xD|XD$/i.test(m.text)){
 let sticker1B = sticker1A.exec(m.text)
-
-let sticker2A = /loops|bot|Loops|bot/i
+}
+let sticker2A = (/^loops|bot|Loops|bot$/i.test(m.text)){
 let sticker2B = sticker2A.exec(m.text)
-
-let sticker3A = /Gracias|gracias/i
+}
+let sticker3A = (/^Gracias|gracias$/i.test(m.text)){
 let sticker3B = sticker3A.exec(m.text)
-
+}
 let sticker4A = /PEDO/i
 let sticker4B = sticker4A.exec(m.text)
 

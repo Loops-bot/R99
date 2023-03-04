@@ -16,31 +16,31 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 
     if (text == astro) {
-      global.db.data.users[m.sender].exp += 100
-        m.reply(`▢ *Empate*\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\n🎁 Puntos (±)100 XP`)
+      global.db.data.users[m.sender].coins += 100
+        m.reply(`▢ *Empate*\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\n🎁 Puntos (±)100 Coins`)
     } else if (text == 'piedra') {
         if (astro == 'tijera') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\n🎁 Puntos *+${poin} XP*`)
+            global.db.data.users[m.sender].coins += 300
+            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\n🎁 Puntos *+${poin} coins*`)
         } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\n Puntos *-${poin} XP*`)
+          global.db.data.users[m.sender].coins -= 300
+            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\n Puntos *-${poin} Coins*`)
         }
     } else if (text == 'tijera') {
         if (astro == 'papel') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\n🎁 Puntos *+${poin} XP*`)
+            global.db.data.users[m.sender].coins += 300
+            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\n🎁 Puntos *+${poin} coins*`)
         } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\nPuntos *-${poin} XP*`)
+          global.db.data.users[m.sender].coins -= 300
+            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\nPuntos *-${poin} XP*`)
         }
     } else if (text == 'papel') {
         if (astro == 'piedra') {
-            global.db.data.users[m.sender].exp += 300
-            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\n🎁 Puntos *+${poin} XP*`)
+            global.db.data.users[m.sender].coins += 300
+            m.reply(`▢ *Ganaste* 🎊\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\n🎁 Puntos *+${poin} XP*`)
         } else {
-          global.db.data.users[m.sender].exp -= 300
-            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ DyLux : ${astro}\n\nPuntos *-${poin} XP*`)
+          global.db.data.users[m.sender].coins -= 300
+            m.reply(`▢ *Perdiste*\n\n‣ Tú : ${text}\n‣ Loops : ${astro}\n\nPuntos *-${poin} XP*`)
         }
     } else {
         throw reseqv

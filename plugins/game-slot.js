@@ -1,5 +1,5 @@
 //import db from '../lib/database.js'
-let reg = 40
+let reg = 50
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     let fa = `
 Cuanto quieres apostar? 
@@ -13,7 +13,7 @@ Cuanto quieres apostar?
     let time = users.lastslot + 10000
     if (new Date - users.lastslot < 10000) throw `⏳ Espere *${msToTime(time - new Date())}* para usar de nuevo`
     if (apuesta < 100) throw '✳️ Mínimo de la apuesta es *100 Coins*'
-    if (users.limit < apuesta) {
+    if (users.coins < apuesta) {
         throw `✳️ No tienes suficiente *Coins*`
     }
 
@@ -42,13 +42,13 @@ Cuanto quieres apostar?
     let end;
     if (a == b && b == c) {
         end = `🎁 GANASTE\n *+${apuesta + apuesta} XP*`
-        users.limit += apuesta + apuesta
+        users.coins += apuesta + apuesta
     } else if (a == b || a == c || b == c) {
         end = `🔮 Casi lo logras sigue intentando :) \nTen *+${reg} Coins*`
-        users.limit += reg
+        users.coins += reg
     } else {
         end = `😔 Perdiste  *-${apuesta} Coins*`
-        users.limit -= apuesta
+        users.coins -= apuesta
     }
     users.lastslot = new Date * 1
     return await m.reply(

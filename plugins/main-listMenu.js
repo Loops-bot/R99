@@ -23,45 +23,44 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
   if (!arrayMenu.includes(teks)) teks = '404'
   if (!args[0]) teks = '404'
   if (teks == 'all') tags = {
-    'main': 'Menús📒',
-  'info': 'Información👨‍💻',
-  'search': 'Busquedas🔎',
-  'game': 'Juegos🕹️',
-  'xp': 'Nivel Y Economía⚖️',
-  'rpg': 'RPG⚔',
-  'rg': 'Registro🗃️',
-  'sticker': 'Sticker🏞️',
-  'frases': 'Frases🥀',
-   'img': 'Imágenes🪴',
-  'group': 'Grupo👻',
-  'logo': 'Maker Y Logos📝',
-  'nable': 'Des/Activar opciones⚙️', 
-  'premium': 'Premium🪪',
-  'nime': 'Anime㊗',
-  'downloader': 'Descargas📥',
-  'tools': 'Herramientas🧰',
-  'fun': 'Diversión🎭',
-  'database': 'Base de Datos🗄️',
-  'nsfw': 'Nsfw🔞', 
-  'owner': 'Creador📌', 
-  'advanced': 'Avanzado🖥️',
-  'audio': 'Efecto de Audios🔊',
-  'vote': 'Votaciones🗳',
+  'main': 'ACERCA DE',
+  'game': 'JUEGOS',
+  'econ': 'NIVEL & ECONOMIA',
+  'rg': 'REGISTRO',
+  'sticker': 'STICKER',
+  'frases': 'FRASES',
+  'img': 'IMAGEN',
+  'maker': 'MAKER',
+  'prem': 'PREMIUM',
+  'group': 'GRUPO',
+  'info': 'HERRAMIENTAS DEL GRUPO',
+  'nable': 'EN/DISABLE OPCIONES', 
+  'nime': 'ANIME',
+  'rnime': 'ANIME REACCION',
+  'dl': 'DESCARGAS',
+  'audio': 'EFECTOS DE AUDIOS',
+  'tools': 'TOOLS',
+  'fun': 'FUN',
+  'cmd': 'DATABASE',
+  'nsfw': 'NSFW +18', 
+  'ansfw': 'NSFW ANIME',
+  'owner': 'OWNER', 
+  'advanced': 'AVANZADO',
   }
   if (teks == 'game') tags = {
     'game': 'Juegos🕹'
   }
-  if (teks == 'xp') tags = {
-    'xp': 'Nivel Y Economía⚖'
+  if (teks == 'econ') tags = {
+    'econ': 'Nivel Y Economía⚖'
   }
-  if (teks == 'stiker') tags = {
+  if (teks == 'sticker') tags = {
     'sticker': 'Sticker🏞'
   }
   if (teks == 'nime') tags = {
     'nime': 'Anime㊗'
   }
-  if (teks == 'rpg') tags = {
-    'rpg': 'RPG⚔'
+  if (teks == 'ansfw') tags = {
+    'ansfw': 'Nsfw anime'
   }
   if (teks == 'rg') tags = {
     'rg': 'Registro🗃'
@@ -69,8 +68,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
   if (teks == 'frases') tags = {
     'frases': 'Frases🥀'
   }
-  if (teks == 'premium') tags = {
-    'premium': 'Premium🪪'
+  if (teks == 'prem') tags = {
+    'prem': 'Premium🪪'
   }
   if (teks == 'img') tags = {
     'img': 'Imágenes🪴'
@@ -78,26 +77,26 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
   if (teks == 'group') tags = {
     'group': 'Grupo👻'
   }
-  if (teks == 'logo') tags = {
-    'logo': 'Maker Y Logos📝'
+  if (teks == 'maker') tags = {
+    'maker': 'Maker Y Logos📝'
   }
   if (teks == 'nable') tags = {
     'nable': 'Des/Activar opciones⚙'
   }
   if (teks == 'tools') tags = {
-    'tools': 'Herramientas🧰'
+    'tools': 'Tools'
   }
   if (teks == 'fun') tags = {
     'fun': 'Diversión🎭'
   }
-  if (teks == 'database') tags = {
-    'database': 'Base de Datos🗄'
+  if (teks == 'cmd') tags = {
+    'cmd': 'Base de Datos🗄'
   }
   if (teks == 'audio') tags = {
     'audio': 'Efecto de Audios🔊'
   }
-  if (teks == 'downloader') tags = {
-    'downloader': 'Descargas📥'
+  if (teks == 'dl') tags = {
+    'dl': 'Descargas📥'
   }
   if (teks == 'advanced') tags = {
     'advanced': 'Avanzado🖥'
@@ -109,19 +108,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
     'owner': 'Creador📌'
   }
   if (teks == 'main') tags = {
-    'main': 'Menús📒'
+    'main': 'Acerca de'
     }
   if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw🔞'
     }
-  if (teks == 'search') tags = {
-    'search': 'Busquedas🔎'
+  if (teks == 'rnime') tags = {
+    'rnime': 'Anime reacción'
     }
-  if (teks == 'vote') tags = {
-    'vote': 'Votaciones🗳'
-    }
-
-
+  
 
   try {
     let packager = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
@@ -186,12 +181,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               }, {
                 "title": "Grupos Oficiales🐾",
                 "description": "Grupos aliados de NyanCatBot",
-                "rowId": `${_p}gruposofc`
+                "rowId": `${_p}grupos`
               }],
               "title": "Aᴄᴇʀᴄᴀ ᴅᴇʟ ʙᴏᴛ🐈"
             }, {
               "rows": [{
-                "title": `Menú Completo🐱`,
+                "title": `Menú acerca de`,
                 "description": "Menú donde se encuentran todos los comandos",
                 "rowId": `${_p}menu`
                 }],
@@ -228,14 +223,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows": [{
                 "title": `Nivel Y Economía⚖`,
                 "description": "Menú sobre exp, monedas, billetera y nivel",
-                "rowId": `${_p}? xp`
+                "rowId": `${_p}? econ`
               }],
               "title": "━━◌*̥₊「 6 」₊*̥◌━━"
             }, {
               "rows": [{
-                "title": `RPG⚔`,
-                "description": "Juegos RPG",
-                "rowId": `${_p}? rpg`
+                "title": `Nsfw anime`,
+                "description": "anime",
+                "rowId": `${_p}? ansfw`
               }],
               "title": "━━◌*̥₊「 7 」₊*̥◌━━"
             }, {
@@ -249,7 +244,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows": [{
                 "title": `Sticker🏞`,
                 "description": "Menú acerca de pegatinas",
-                "rowId": `${_p}? stiker`
+                "rowId": `${_p}? sticker`
               }],
               "title": "━━◌*̥₊「 9 」₊*̥◌━━"
             }, {
@@ -277,7 +272,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows": [{
                 "title": `Maker Y Logos📝`,
                 "description": "Menú de editor de fotos y logos",
-                "rowId": `${_p}? logo`
+                "rowId": `${_p}? maker`
               }],
               "title": "━━◌*̥₊「 13 」₊*̥◌━━"
             }, {
@@ -291,7 +286,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows":[{
                 "title": `Premium🪪`,
                 "description": "Menu para usuarios premium",
-                "rowId": `${_p}? premium`
+                "rowId": `${_p}? prem`
               }],
               "title": "━━◌*̥₊「 15 」₊*̥◌━━"
             }, {
@@ -305,7 +300,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows": [{
                 "title": `Descargas📥`,
                 "description": "Menú de descargas",
-                "rowId": `${_p}? downloader`
+                "rowId": `${_p}? dl`
               }],
               "title": "━━◌*̥₊「 17 」₊*̥◌━━"
             }, {
@@ -326,7 +321,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "rows": [{
                 "title": `Base de Datos🗄`,
                 "description": "Comandos acerca de stickers con comandos",
-                "rowId": `${_p}? database`
+                "rowId": `${_p}? cmd`
               }],
               "title": "━━◌*̥₊「 20 」₊*̥◌━━"
             }, {
@@ -357,29 +352,23 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                 "rowId": `${_p}? audio`
               }],
               "title": "━━◌*̥₊「 24 」₊*̥◌━━"
-            }, {
-              "rows": [{
-                "title": `Votaciones🗳`,
-                "description": "Menú de comandos para iniciar o cerrar votaciones",
-                "rowId": `${_p}? vote`
-              }],
-              "title": "━━◌*̥₊「 25 」₊*̥◌━━"
+            
             }]
           const listMessage = {
-            text: `*┏━「🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ-MD🍁⃨፝⃕✰」━⊜*
-┃⋄ 🕒 *Hora*: ${time}
-┃⋄ 🗓 *Fecha*: ${date}
-┃⋄ 📅 *Día*: ${week}
-┗━━◘
+            text: `*┌─◈「🐱⸽⃕⍣Loopsᴮᴼᵀ࿐-MD🍁⃨፝⃕✰」─◈*
+▢ 🕒 *Hora*: ${time}
+▢ 🗓 *Fecha*: ${date}
+▢ 📅 *Día*: ${week}
+└───◈
 
-┏━━⊜ *_INFO USER_* ━⊜
-┃⋄ 📇 *Nombre*: @${m.sender.split`@`[0]} 
-┃⋄ 🪙 *Monedas*: ${limit}
-┃⋄ 📊 *Nivel*: ${level}
-┃⋄ ✨ *Exp*: ${user.exp - min}/${xp}
-┃⋄ 📍 *Rol*: ${role}
-┃⋄ 🪪 *Premium*: ${global.prems ? '✅' : '❌'}
-┗━━◘`,
+┌───◈ *_INFO USER_* ─◈
+▢ 📇 *Nombre*: @${m.sender.split`@`[0]} 
+▢ 🪙 *Monedas*: ${limit}
+▢ 📊 *Nivel*: ${level}
+▢ ✨ *Exp*: ${user.exp - min}/${xp}
+▢ 📍 *Rol*: ${role}
+▢ 🪪 *Premium*: ${global.prems ? '✅' : '❌'}
+└───◈`,
             footer: fgig,
             title: null,
             mentions: [m.sender],

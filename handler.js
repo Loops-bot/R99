@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.coins = 10
                 if (!isNumber(user.diamond))
                     user.diamond = 10
                 if (!isNumber(user.lastclaim))
@@ -80,7 +80,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 15,
+                    coins: 15,
                     diamond: 10,
                     lastclaim: 0,
                     registered: false,

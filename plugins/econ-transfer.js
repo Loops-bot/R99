@@ -1,4 +1,4 @@
-const items = ['diamond', 'limit']
+const items = ['diamond', 'coins']
 let confirmation = {}
 
 async function handler(m, { conn, args, usedPrefix, command }) {
@@ -15,7 +15,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
 ┌──────────────
 ▢ *diamond* = Diamante 💎
 ▢ *coins* = Monedas 🪙
-▢ Use limit para transferir las coins
+▢ Espero que tengas un lindo dia
 └──────────────
 `.trim()
     const type = (args[0] || '').toLowerCase()

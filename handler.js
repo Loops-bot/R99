@@ -592,7 +592,7 @@ global.dfail = (type, m, conn) => {
         unreg: '📇 Regístrese para usar esta función  Escribiendo:\n\n*/reg nombre.edad*\n\n📌Ejemplo : */reg Loops.16*',
         restrict: '🔐 Esta característica está *deshabilitada*'
     }[type]
-    if (msg) return conn.sendButton(m.chat, msg, fgig, null, [['🔖 OK', 'ok'], ['⦙☰ Menu', '/menu'] ], m)
+    if (msg) return conn.sendButton(m.chat, msg, fgig, null, [['🔖 OK', 'khajs'], ['⦙☰ Menu', '/menu'] ], m)
 }
 
 let file = global.__filename(import.meta.url, true)

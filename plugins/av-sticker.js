@@ -3,7 +3,7 @@ handler.all = async function (m) {
 
     if (/^xd|XD|Xd|xD$/i.test(m.text) ) {
       let vn = './storage/sticker/xd.webp'
-      this.sendFile(m.chat, vn, 'xd.webp', null, m, true, { type: 'audioMessage', ptt: true })
+      this.sendFile(m.chat, vn, 'xd.webp', null, m, true, { type: 'webpMessage', ptt: true })
      }
 
   if (/^buenas tardes$/i.test(m.text) ) {

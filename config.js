@@ -33,7 +33,10 @@ global.dygp = 'https://chat.whatsapp.com/FBt84FrXGG51wQul7vT8Gc'
 global.fgsc = 'https://github.com/Loops-bot/R99' 
 global.fgyt = 'https://www.youtube.com/@jorgefloreslopez5878'
 global.fgpyp = 'https://www.paypal.me/Loopsbot'
-global.fglog = 'https://i.imgur.com/Owmb93c.png' 
+global.fglog = 'https://i.imgur.com/Owmb93c.png'
+
+//᭥🌇᭢━━━━━━◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞━━━━━━᭥🌇᭢
+global.imgmenu = fs.readFileSync('./src/fg_logo.jpg')
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'

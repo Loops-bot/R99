@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let res = w.data.result*/
     let anu = (await axios.get('https://raw.githubusercontent.com/fgmods/fg-team/main/games/work.json')).data
     let res = pickRandom(anu)
- global.db.data.users[m.sender].limit += hasil
+ global.db.data.users[m.sender].coins += hasil
 
   m.reply(`
 ‣ ${res.fgwork} *${hasil} Coins*

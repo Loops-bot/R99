@@ -11,7 +11,8 @@ let hasil = Math.floor(Math.random() * 5000)
 ❥ *"${pickRandom(global.piropo)}"*\n\n\t- *_⍣Loopsᴮᴼᵀ*\n*└────────────────────────*
 `)
 }
-hhandler.customPrefix 
+handler.customPrefix = /^(piropo)$/i
+handler.command = new RegExp
 handler.tags = ['frases']
 handler.help = ['piropo']
 

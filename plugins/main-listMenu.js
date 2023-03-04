@@ -380,7 +380,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
 ┃⋄ 📍 *Rol*: ${role}
 ┃⋄ 🪪 *Premium*: ${global.prems ? '✅' : '❌'}
 ┗━━◘`,
-            footer: saludo,
+            footer: fgig,
             title: null,
             mentions: [m.sender],
             buttonText: "Click Aquí",

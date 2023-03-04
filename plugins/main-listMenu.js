@@ -4,7 +4,7 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 const defaultMenu = {
   before: `
-*┏━「🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ-MD🍁⃨፝⃕✰」━⊜*
+*┌─「🐱⸽⃕⍣Loops ᴮᴼᵀ࿐-MD🍁⃨፝⃕✰」─◈*
 ┃⋄ 👋 *Hola %taguser!!*
 ┃⋄ 🕒 *Hora*: %time
 ┃⋄ 🗓 *Fecha*: %date
@@ -443,7 +443,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     showAdAttribution: false,
                     mediaType: 'VIDEO',
                     mediaUrl: 'https://pornhub.com',
-                    title: '🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ-MD🍁⃨፝⃕✰',
+                    title: '🐱⸽⃕⍣Loops ᴮᴼᵀ࿐-MD🍁⃨፝⃕✰',
                     body: '💐Alberto Y Ashly💐',
                     thumbnail: miniurl,
                     sourceUrl: global.linkgc

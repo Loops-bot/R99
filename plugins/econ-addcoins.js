@@ -8,18 +8,18 @@ let handler = async (m, { conn, text }) => {
   let txt = text.replace('@' + who.split`@`[0], '').trim()
   if (!txt) throw '✳️ Ingrese la cantidad de *coins* que quiere añadir'
   if (isNaN(txt)) throw ' 🔢 sólo números'
-  let limit = parseInt(txt)
-  let exp = limit
+  let coins = parseInt(txt)
+  let exp = coins
   
-  if (limit < 1) throw '✳️ Mínimo es  *1*'
+  if (coins < 1) throw '✳️ Mínimo es  *1*'
   let users = global.db.data.users
-  users[who].limit += exp
+  users[who].coins += exp
 
   await m.reply(`≡ *COINS AÑADIDO*
 ┌──────────────
-▢  *Total:* ${limit}
+▢  *Total:* ${coins}
 └──────────────`)
- conn.fakeReply(m.chat, `▢ Recibiste \n\n *+${limit} coins*`, who, m.text)
+ conn.fakeReply(m.chat, `▢ Recibiste \n\n *+${coins} coins*`, who, m.text)
 }
 
 handler.help = ['addcoins <@user>']

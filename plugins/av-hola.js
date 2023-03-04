@@ -12,6 +12,7 @@ conn.sendButton(m.chat, `Hola *${name}* \nMi creador no se encuentra en linea \n
 
 handler.customPrefix = /^(bro|jorge|jorgito|perro)$/i
 handler.command = new RegExp
+handler.private = 
 
 export default handler
 

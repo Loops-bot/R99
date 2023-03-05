@@ -19,6 +19,7 @@ let tags = {
   'nable': 'EN/DISABLE OPCIONES', 
   'nime': 'ANIME',
   'rnime': 'ANIME REACCION',
+  'search': 'Busquedas🔎',
   'dl': 'DESCARGAS',
   'audio': 'EFECTOS DE AUDIOS',
   'tools': 'TOOLS',

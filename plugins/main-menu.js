@@ -215,11 +215,3 @@ switch(hour){
   case 23: hour = 'una linda noche 🌃'; break;
 }
   var greeting = "Espero que tengas " + hour;
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Doc

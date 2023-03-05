@@ -19,7 +19,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'nime', 'search', 'rpg', 'rg', 'frases', 'premium', 'img', 'group', 'logo', 'nable', 'tools', 'fun', 'database', 'downloader', 'audio', 'nsfw', 'info', 'owner', 'main', 'advanced', 'audio', 'vote']
+  let arrayMenu = ['all', 'game', 'econ', 'sticker', 'nime', 'search', 'ansfw', 'rg', 'frases', 'prem', 'img', 'group', 'meker', 'nable', 'tools', 'fun', 'cmd', 'dl', 'audio', 'nsfw', 'info', 'owner', 'main', 'advanced', 'audio', 'rnime']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (!args[0]) teks = '404'
   if (teks == 'all') tags = {
@@ -180,13 +180,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                 "rowId": `${_p}infobot`
               }, {
                 "title": "Grupos Oficiales🐾",
-                "description": "Grupos aliados de NyanCatBot",
+                "description": "Grupos aliados con ⍣Loops ᴮᴼᵀ࿐",
                 "rowId": `${_p}grupos`
               }],
               "title": "Aᴄᴇʀᴄᴀ ᴅᴇʟ ʙᴏᴛ🐈"
             }, {
               "rows": [{
-                "title": `Menú acerca de`,
+                "title": `Menú completo`,
                 "description": "Menú donde se encuentran todos los comandos",
                 "rowId": `${_p}menu`
                 }],
@@ -363,7 +363,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
 
 ┌───◈ *_INFO USER_* ─◈
 ▢ 📇 *Nombre*: @${m.sender.split`@`[0]} 
-▢ 🪙 *Monedas*: ${limit}
+▢ 🪙 *Monedas*: ${coins}
 ▢ 📊 *Nivel*: ${level}
 ▢ ✨ *Exp*: ${user.exp - min}/${xp}
 ▢ 📍 *Rol*: ${role}
@@ -397,7 +397,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '◜🪙◞' : '')
+                .replace(/%iscoins/g, menu.coins ? '◜🪙◞' : '')
                 .replace(/%isPremium/g, menu.premium ? '◜🪪◞' : '')
                 .trim()
             }).join('\n')
@@ -434,7 +434,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     image: imgmenu,
                     caption: text.trim(),
                     mentions: [m.sender],
-                    footer: `*${saludo}*`,
+                    footer: `*${fgig}*`,
                     buttons: buttons,
                     headerType: 4,
                     contextInfo: {
@@ -444,7 +444,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     mediaType: 'VIDEO',
                     mediaUrl: 'https://pornhub.com',
                     title: '🐱⸽⃕⍣Loops ᴮᴼᵀ࿐-MD🍁⃨፝⃕✰',
-                    body: '💐Alberto Y Ashly💐',
+                    body: '💐Jorge Y Mayra💐',
                     thumbnail: miniurl,
                     sourceUrl: global.linkgc
                     }}

@@ -43,7 +43,7 @@ const defaultMenu = {
 •🗓️ *Dia:* %week
 
 ────────────────────────
-%readmore
+%readeverything
 Ⓟ = Premium
 ⓓ = Diamantes
 -----  -----  -----  -----  -----
@@ -148,7 +148,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       xp4levelup: max - exp,
       github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
       level, diamond, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
-      readmore : readmore
+      readeverything: readeverything
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     

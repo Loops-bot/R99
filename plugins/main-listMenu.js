@@ -363,7 +363,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
 
 ┌───◈ *_INFO USER_* ─◈
 ▢ 📇 *Nombre*: @${m.sender.split`@`[0]} 
-▢ 🪙 *Monedas*: ${coins}
+▢ 🪙 *Monedas*: ${user.coins}
 ▢ 📊 *Nivel*: ${level}
 ▢ ✨ *Exp*: ${user.exp - min}/${xp}
 ▢ 📍 *Rol*: ${role}

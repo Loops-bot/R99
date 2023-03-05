@@ -445,7 +445,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     mediaUrl: 'https://pornhub.com',
                     title: '🐱⸽⃕⍣Loops ᴮᴼᵀ࿐-MD🍁⃨፝⃕✰',
                     body: '💐Jorge Y Mayra💐',
-                    thumbnail: miniurl,
+
                     sourceUrl: global.linkgc
                     }}
                 }
@@ -459,7 +459,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
 }
 handler.help = ['listmenu']
 handler.tags = ['main']
-handler.command = /^(listmenu|\?)$/i
+handler.command = /^(listmenu|menulista|listamenu)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

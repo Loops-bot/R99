@@ -445,7 +445,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     mediaUrl: 'https://pornhub.com',
                     title: '🐱⸽⃕⍣Loops ᴮᴼᵀ࿐-MD🍁⃨፝⃕✰',
                     body: '💐Jorge Y Mayra💐',
-
+                    thumbnail: miniurl,
                     sourceUrl: global.linkgc
                     }}
                 }

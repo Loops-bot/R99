@@ -49,8 +49,8 @@ ${String.fromCharCode(8206).repeat(850)}
 }
 
 handler.help = ['horario']
-handler.tags = ['info']
-handler.command = /^(horario)$/i
+handler.tags = ['info', 'prem']
+handler.command = /^(zona|horaria)$/i
 handler.register = true
 handler.diamomd = true
 	

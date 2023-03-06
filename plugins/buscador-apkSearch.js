@@ -16,7 +16,7 @@ caption += `
 *• 🔗 Url:* _${x.link}_
 *• 🎋 Actualizado:* ${x.update}\n───
 `}
-conn.sendNyanCat(m.chat, caption, sfoto, `• Resultados Encontrados🔎`, fgig, saludo, m)}
+conn.sendButton(m.chat, caption, sfoto, `• Resultados Encontrados🔎`, fgig, saludo, m)}
 
 handler.tags = ['search']
 handler.command = ['apksearch', 'buscarapk']

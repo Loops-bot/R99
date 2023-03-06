@@ -17,7 +17,7 @@ let handler = async (m, {conn, text }) => {
    `.trim()
       case 'canal': return `
 ▢ *${v.name}* (${v.url})
-▢${v.subCountLabel} (${v.subCount}) Suscribirse
+▢${v.subCountLabel} (${v.subCount}) Suscribirse.
 ▢ ${v.videoCount} videos
 `.trim()
     }

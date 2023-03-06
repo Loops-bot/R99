@@ -27,14 +27,14 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let buttonMessage= {
 'document': { url: `https://github.com/ALBERTO9883` },
 'mimetype': `application/${document}`,
-'fileName': `🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ - MD🍁⃨፝⃕✰`,
+'fileName': `🐱⸽⃕⍣Loops ᴮᴼᵀ࿐ - MD🍁⃨፝⃕✰`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/ALBERTO9883',
+'mediaUrl': 'https://github.com/Loops-bot',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': `• Resultados Encontrados🔎`,

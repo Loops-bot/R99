@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 ▢ *📌Título* : ${title}
 ▢ *📟 Ext* : mp4
 ▢ *⚖️Peso* : ${size}
-`.trim(), m, false, { asDocument: chat.useDocument })
+`.trim(), m, false, { as Document: chat.useDocument })
 		m.react(done)*/ 
 	} 
 		 

@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
   conn.sendFile(m.chat, image_url, '', animeingfo, m)
 }
 handler.help = ['animeinfo *<nombre>*']
-handler.tags = ['search']
+handler.tags = ['dl']
 handler.command = /^(animeinfo)$/i
 handler.register = true
 //maapin fatur :<

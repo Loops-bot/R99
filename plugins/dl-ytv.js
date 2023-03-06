@@ -17,13 +17,13 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 		
        if (size.split('MB')[0] >= limit) return m.reply(` ≡  *FG YTDL*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${q}\n\n▢ _El archivo supera el límite de descarga_ *+${limit} MB*`)    
 	  conn.sendFile(m.chat, dl_url, title + '.mp4', `
- ≡  *FG YTDL*
+ ≡  *R98 YTDL*
   
 ▢ *📌Título* : ${title}
 ▢ *📟 Ext* : mp4
 ▢ *🎞️Calidad* : ${q}
 ▢ *⚖️Peso* : ${size}
-`.trim(), m, false, { asDocument: chat.useDocument })
+`.trim(), m, false, { asVideo: chat.useVideo })
 		m.react(done) 
 		
 	} catch {
@@ -32,12 +32,12 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 		/*const { title, result, quality, size, duration, thumb, channel } = await fg.ytv(args[0]) 
 		if (size.split('MB')[0] >= limit) return m.reply(` ≡  *FG YTDL2*\n\n▢ *⚖️Peso* : ${size}\n▢ *🎞️Calidad* : ${quality}\n\n▢ _El archivo supera el límite de descarga_ *+${limit} MB*`)
 	conn.sendFile(m.chat, result, title + '.mp4', `
- ≡  *FG YTDL2*
+ ≡  *R98 YTDL2*
   
 ▢ *📌Título* : ${title}
 ▢ *📟 Ext* : mp4
 ▢ *⚖️Peso* : ${size}
-`.trim(), m, false, { as Document: chat.useDocument })
+`.trim(), m, false, { asVideo: chat.useVideo })
 		m.react(done)*/ 
 	} 
 		 

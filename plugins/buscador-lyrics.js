@@ -16,8 +16,8 @@ Link:  ${result.link}
 `.trim())
 }
 
-handler.help = ['Lyrics'].map(v => v + '')
-handler.tags = ['search']
+handler.help = ['lyrics <Nombre de la canción>'].map(v => v + '')
+handler.tags = ['dl']
 handler.command = ['letra', 'lyrics', 'letras'] 
 handler.register = true
 

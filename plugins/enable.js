@@ -6,20 +6,20 @@ const sections = [
    {
 	title: `≡ Lista de Opciones`,
 	rows: [
-	{title: "🔮 | Welcome", description: "Activa o Desactiva La Bienvenida En El Grupo" rowId: `${usedPrefix + command} welcome`},
-	{title: "🌎 | Publico", description: "El Bot Se Vuelve De uso Público y/o privado" rowId: `${usedPrefix + command} public`},
-	{title: "🔞 | Nsfw", description: "Activa o Desactiva Los comandos +18 🔞 " rowId: `${usedPrefix + command} nsfw`},
-	{title: "🧬 | Antifakes", description: "" rowId: `${usedPrefix + command} onlylatinos`},
-	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
+	{title: "🔮 | Welcome", description: "Activa o Desactiva La Bienvenida En El Grupo", rowId: `${usedPrefix + command} welcome`},
+	{title: "🌎 | Publico", description: "El Bot Se Vuelve De uso Público y/o privado", rowId: `${usedPrefix + command} public`},
+	{title: "🔞 | Nsfw", description: "Activa o Desactiva Los comandos +18 🔞 ", rowId: `${usedPrefix + command} nsfw`},
+	{title: "🧬 | Antifakes", description: "", rowId: `${usedPrefix + command} onlylatinos`},
+	{title: "🔗 | Antilink", description: "", rowId: `${usedPrefix + command} antilink`},
         {title: "🔗 | Antilink 2", description: "Activa o Desactiva El Anti Enlaces Que Inician En https", rowId: `${usedPrefix + command} antilink2`},
-    {title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},
-	{title: "⏏️ | Autolevelup", rowId: `${usedPrefix + command} autolevelup`},
-	{title: "🗣️ | ChatBot", rowId: `${usedPrefix + command} chatbot`},
-	{title: "🔎 | Detect", rowId: `${usedPrefix + command} detect`},
-	{title: "📑 | Document", rowId: `${usedPrefix + command} document`},
-	{title: "🛡️ | Restrict", rowId: `${usedPrefix + command} restrict`},
-	{title: "💬 | SoloPrivado", rowId: `${usedPrefix + command} onlydm`},
-	{title: "👥 | SoloGrupos", rowId: `${usedPrefix + command} onlygp`}
+    {title: "🚫 | Antidelete", description: "", rowId: `${usedPrefix + command} antidelete`},
+	{title: "⏏️ | Autolevelup", description: "", rowId: `${usedPrefix + command} autolevelup`},
+	{title: "🗣️ | ChatBot", description: "", rowId: `${usedPrefix + command} chatbot`},
+	{title: "🔎 | Detect", description: "", rowId: `${usedPrefix + command} detect`},
+	{title: "📑 | Document", description: "", rowId: `${usedPrefix + command} document`},
+	{title: "🛡️ | Restrict", description: "", rowId: `${usedPrefix + command} restrict`},
+	{title: "💬 | SoloPrivado", description: "", rowId: `${usedPrefix + command} onlydm`},
+	{title: "👥 | SoloGrupos", description: "", rowId: `${usedPrefix + command} onlygp`}
 	]
     },
 ]

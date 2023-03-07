@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, participants }) => {
   let sortedCoin = users.map(toNumber('coins')).sort(sort('coins'))
   let sortedLim = users.map(toNumber('diamond')).sort(sort('diamond'))
   let sortedLevel = users.map(toNumber('level')).sort(sort('level'))
-  let usersCoin = sortedcoins.map(enumGetKey)
+  let usersCoin = sortedCoin.map(enumGetKey)
   let usersLim = sortedLim.map(enumGetKey)
   let usersLevel = sortedLevel.map(enumGetKey)
   let len = args[0] && args[0].length > 0 ? Math.min(50, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedCoin.length)

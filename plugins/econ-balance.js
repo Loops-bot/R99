@@ -8,7 +8,7 @@ let handler = async (m, {conn, usedPrefix}) => {
 ┌───⊷ *BALANCE* ⊶
 ▢ *📌Nombre* : _@${who.split('@')[0]}_
 ▢ *💎Diamantes* : _${user.diamond}_
-▢ *🪙Coins* : ${global.db.data.users[who].coins}
+▢ *🪙Coins* : _${user.coins}_
 └───────────
 *NOTA :* 
 Puedes comprar 💎 diamantes usando los comandos

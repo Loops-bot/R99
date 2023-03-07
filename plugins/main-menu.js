@@ -156,8 +156,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp = './src/fg_logo.jpg'
     
     conn.sendButton(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n*▢ Loops* ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
-      ['https://www.youtube.com/@jorgefloreslopez5878'],
-      ['https://www.paypal.me/Loopsbot'],
+      
       ['ꨄ︎ Apoyar', `${_p}donate`],
        ['⌬ Grupos', `${_p}gpdylux`]
         ],m, rpl)

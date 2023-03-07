@@ -109,15 +109,17 @@ const listMessage = {
       break
 		  
       case 'antilink2':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiLink2 = isEnable 
-break
+      case 'antilinkwa2':
+      case 'antilinkwha2':
+       if (m.isGroup) {
+         if (!(isAdmin || isOwner)) {
+           global.dfail('admin', m, conn)
+           throw false
+        }
       }
-     }
+      chat.antiLink2 = isEnable 
+      break
+      
       case 'sololatinos':
       case 'sololatino':
       case 'onlylatinos':

@@ -16,9 +16,9 @@ let handler = async (m, { conn, args, participants }) => {
        ≡ *TABLA DE CLASIFICACION*
     
 ▢ *TOP ${len} Coins* 🧬
-Tú : *${usersExp.indexOf(m.sender) + 1}* de *${usersCoins.length}*
+Tú : *${userscoins.indexOf(m.sender) + 1}* de *${userscoins.length}*
 
-${sortedCoins.slice(0, len).map(({ jid, exp }, i) => `*${i + 1}.* ${participants.some(p => areJidsSameUser(jid, p.id)) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ➭ _*Coins ${coins}*_`).join`\n`}
+${sortedcoins.slice(0, len).map(({ jid, exp }, i) => `*${i + 1}.* ${participants.some(p => areJidsSameUser(jid, p.id)) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ➭ _*Coins ${coins}*_`).join`\n`}
 
 ▢ *TOP ${len} DIAMANTES💎* 
 Tú : *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length}*

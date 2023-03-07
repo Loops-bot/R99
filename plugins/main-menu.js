@@ -165,7 +165,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
        ['⏍ Info', `${_p}infobot`],
         ['⌬ Grupos', `${_p}gpdylux`]
      ],m, rpl)
-  llllll
+
     m.react('📚') 
     
   } catch (e) {

@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '▢ Loops  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/Loopsbot_r98', pp, [
+    conn.sendButton(m.chat, text.trim(), '▢ Loops  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/Loopsbot_r98', pp, fgyt, 'Youtube', 'https://www.paypal.me/Loopsbot', 'PayPal',[
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]

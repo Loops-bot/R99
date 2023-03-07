@@ -5,20 +5,20 @@ let handler = async (m, { conn, args, participants }) => {
   let users = Object.entries(global.db.data.users).map(([key, value]) => {
     return {...value, jid: key}
   })
-  let sortedExp = users.map(toNumber('exp')).sort(sort('exp'))
+  let sortedcoins = users.map(toNumber('coins')).sort(sort('coins'))
   let sortedLim = users.map(toNumber('diamond')).sort(sort('diamond'))
   let sortedLevel = users.map(toNumber('level')).sort(sort('level'))
-  let usersExp = sortedExp.map(enumGetKey)
+  let userscoins = sortedcoins.map(enumGetKey)
   let usersLim = sortedLim.map(enumGetKey)
   let usersLevel = sortedLevel.map(enumGetKey)
-  let len = args[0] && args[0].length > 0 ? Math.min(50, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedExp.length)
+  let len = args[0] && args[0].length > 0 ? Math.min(50, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedcoins.length)
   let text = `
        ≡ *TABLA DE CLASIFICACION*
     
-▢ *TOP ${len} XP* 🧬
-Tú : *${usersExp.indexOf(m.sender) + 1}* de *${usersExp.length}*
+▢ *TOP ${len} Coins* 🧬
+Tú : *${usersExp.indexOf(m.sender) + 1}* de *${usersCoins.length}*
 
-${sortedExp.slice(0, len).map(({ jid, exp }, i) => `*${i + 1}.* ${participants.some(p => areJidsSameUser(jid, p.id)) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ➭ _*XP ${exp}*_`).join`\n`}
+${sortedCoins.slice(0, len).map(({ jid, exp }, i) => `*${i + 1}.* ${participants.some(p => areJidsSameUser(jid, p.id)) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} ➭ _*Coins ${coins}*_`).join`\n`}
 
 ▢ *TOP ${len} DIAMANTES💎* 
 Tú : *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length}*

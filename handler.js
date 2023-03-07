@@ -43,7 +43,7 @@ export async function handler(chatUpdate) {
             if (user) {
                 if (!isNumber(user.exp))
                     user.exp = 0
-                if (!isNumber(user.limit))
+                if (!isNumber(user.coins))
                     user.coins = 10
                 if (!isNumber(user.diamond))
                     user.diamond = 10

@@ -29,6 +29,7 @@ let tags = {
   'ansfw': 'NSFW ANIME',
   'owner': 'OWNER', 
   'advanced': 'AVANZADO',
+  saludo,
 }
 const defaultMenu = {
   before: `

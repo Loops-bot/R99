@@ -6,27 +6,27 @@ const sections = [
    {
 	title: `≡ Lista de Opciones`,
 	rows: [
-	{title: "🔮 | Welcome", description: "Activa o Desactiva La Bienvenida En El Grupo", rowId: `${usedPrefix + command} welcome`},
-	{title: "🌎 | Publico", description: "El Bot Se Vuelve De uso Público y/o privado", rowId: `${usedPrefix + command} public`},
-	{title: "🔞 | Nsfw", description: "Activa o Desactiva Los comandos +18 🔞 ", rowId: `${usedPrefix + command} nsfw`},
-	{title: "🧬 | Antifakes", description: "", rowId: `${usedPrefix + command} onlylatinos`},
-	{title: "🔗 | Antilink", description: "Activa o Desactiva El Anti Enlaces De Grupos De WhatsApp ", rowId: `${usedPrefix + command} antilink`},
-        {title: "🔗 | Antilink 2", description: "Activa o Desactiva El Anti Enlaces Que Inician En https", rowId: `${usedPrefix + command} antilink2`},
+	{title: "🔮 | Welcome", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
+	{title: "🌎 | Publico", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
+	{title: "🔞 | Nsfw", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾", rowId: `${usedPrefix + command} nsfw`},
+	{title: "🧬 | Antifakes", description: "𝙰𝙻 𝙴𝙽𝚅𝙸𝙰𝚁 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝚁𝙰𝙱𝙴, 𝙴𝙻 𝙱𝙾𝚃 𝙻𝙾 𝚂𝙰𝙲𝙰", rowId: `${usedPrefix + command} onlylatinos`},
+	{title: "🔗 | Antilink", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ", rowId: `${usedPrefix + command} antilink`},
+        {title: "🔗 | Antilink 2", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},
     {title: "🚫 | Antidelete", description: "", rowId: `${usedPrefix + command} antidelete`},
 	{title: "⏏️ | Autolevelup", description: "", rowId: `${usedPrefix + command} autolevelup`},
 	{title: "🗣️ | ChatBot", description: "", rowId: `${usedPrefix + command} chatbot`},
-	{title: "🔎 | Detect", description: "Activa o Desactiva La Notificasiones De Nueva Modificacion En Un Grupo", rowId: `${usedPrefix + command} detect`},
+	{title: "🔎 | Detect", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾 ", rowId: `${usedPrefix + command} detect`},
 	{title: "📑 | Document", description: "", rowId: `${usedPrefix + command} document`},
-	{title: "🛡️ | Restrict", description: "", rowId: `${usedPrefix + command} restrict`},
-	{title: "💬 | SoloPrivado", description: "", rowId: `${usedPrefix + command} onlydm`},
-	{title: "👥 | SoloGrupos", description: "", rowId: `${usedPrefix + command} onlygp`}
+	{title: "🛡️ | Restrict", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},
+	{title: "💬 | SoloPrivado", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} onlydm`},
+	{title: "👥 | SoloGrupos", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} onlygp`}
 	]
     },
 ]
 
 const listMessage = {
   text: '\nAquí tiene una lista de lo que puede activar y desactivar',
-  footer: saludo,
+  footer: saludo, fgig,
 
   title: `≡ Lista de Opciones`,
   buttonText: "Click Aquí",

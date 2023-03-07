@@ -119,6 +119,8 @@ export async function handler(chatUpdate) {
                     chat.delete = true
                 if (!('antiLink' in chat))
                     chat.antiLink = false
+                if (!('antiLink2' in chat))
+                    chat.antiLink2 = false
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('onlyLatinos' in chat))
@@ -139,6 +141,7 @@ export async function handler(chatUpdate) {
                     
                     delete: true,
                     antiLink: false,
+                    antilink2: false,
                     viewonce: false,
                     useDocument: true,
                     onlyLatinos: false,

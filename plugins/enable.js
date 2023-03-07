@@ -6,10 +6,10 @@ const sections = [
    {
 	title: `≡ Lista de Opciones`,
 	rows: [
-	{title: "🔮 | Welcome", rowId: `${usedPrefix + command} welcome`},
-	{title: "🌎 | Publico", rowId: `${usedPrefix + command} public`},
-	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
-	{title: "🧬 | Antifakes", rowId: `${usedPrefix + command} onlylatinos`},
+	{title: "🔮 | Welcome", description: "Activa o Desactiva La Bienvenida En El Grupo" rowId: `${usedPrefix + command} welcome`},
+	{title: "🌎 | Publico", description: "El Bot Se Vuelve De uso Público y/o privado" rowId: `${usedPrefix + command} public`},
+	{title: "🔞 | Nsfw", description: "Activa o Desactiva Los comandos +18 🔞 " rowId: `${usedPrefix + command} nsfw`},
+	{title: "🧬 | Antifakes", description: "" rowId: `${usedPrefix + command} onlylatinos`},
 	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
         {title: "🔗 | Antilink 2", description: "Activa o Desactiva El Anti Enlaces Que Inician En https", rowId: `${usedPrefix + command} antilink2`},
     {title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},

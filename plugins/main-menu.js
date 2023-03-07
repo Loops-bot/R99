@@ -161,6 +161,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
         ['⌬ Grupos', `${_p}gpdylux`]
     ], m)
     
+    conn.sendButton(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/Loopsbot', 'PayPal', [
+      ['ꨄ︎ Apoyar', `${_p}donate`],
+       ['⏍ Info', `${_p}infobot`],
+        ['⌬ Grupos', `${_p}gpdylux`]
+    ], rpl)
     m.react('📚') 
     
   } catch (e) {

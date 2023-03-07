@@ -25,7 +25,7 @@ const sections = [
 
 const listMessage = {
   text: '\nAquí tiene una lista de lo que puede activar y desactivar',
-  footer: fgig,
+  footer: saludo,
   title: `≡ Lista de Opciones`,
   buttonText: "Click Aquí",
   sections

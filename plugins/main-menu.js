@@ -155,17 +155,17 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-    conn.sendHydrated2(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/Loopsbot', 'PayPal', [
+    /*conn.sendHydrated2(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/Loopsbot', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
        ['⏍ Info', `${_p}infobot`],
         ['⌬ Grupos', `${_p}gpdylux`]
-    ], m)
+    ], m)*/
     conn.sendButton(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
        ['⏍ Info', `${_p}infobot`],
         ['⌬ Grupos', `${_p}gpdylux`]
      ],m, rpl)
-  
+  llllll
     m.react('📚') 
     
   } catch (e) {

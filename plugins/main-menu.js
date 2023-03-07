@@ -155,17 +155,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-    /*conn.sendHydrated2(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/Loopsbot', 'PayPal', [
+    conn.sendHydrated2(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, fgyt, 'YouTube', 'https://paypal.me/Loopsbot', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
        ['⏍ Info', `${_p}infobot`],
         ['⌬ Grupos', `${_p}gpdylux`]
-    ], m)*/
-    conn.sendButton(m.chat, text.trim(), '▢ Hola Bienvenido al menu\n▢ Loops ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/loopsbot_r98', pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-       ['⏍ Info', `${_p}infobot`],
-        ['⌬ Grupos', `${_p}gpdylux`]
-     ],m, rpl)
-
+    ], m)
+    
     m.react('📚') 
     
   } catch (e) {
@@ -190,5 +185,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, 'd ', h, 'h ', m, 'm'].map(v => v.toString().padStart(2, 0)).join('')
+  return [d, 'd ', h, 'h ', m, 'm '].map(v => v.toString().padStart(2, 0)).join('')
 }

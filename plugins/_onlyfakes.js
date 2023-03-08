@@ -12,6 +12,9 @@ handler.before = async function (m, {conn, isAdmin, isBotAdmin, isOwner } ) {
  m.reply(te, m.sender)
 conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
    } 
+   if (m.sender.startsWith('212')) {
+  m.reply(te, m.sender)
+conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')	
    if (m.sender.startsWith('265')) {
   m.reply(te, m.sender)
 conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')

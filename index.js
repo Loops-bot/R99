@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Loops -  E99', {
+say('Loops -  r98', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`'${name}' By @r99._`, {
+say(`'${name}' By @r98._`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']

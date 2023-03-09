@@ -4,10 +4,7 @@ handler.all = async function (m) {
 
     if (/^xd|XD|xD|Xd$/i.test(m.text) ) {
       let sticker = 'https://raw.githubusercontent.com/Loops-bot/fgmods/main/img/xd.json'
-      
-       let stiker = await sticker(null, global.API(`${pickRandom(img)}`), global.packname, global.author)
-    if (stiker) return await conn.sendFile(m.chat, stiker, 'sticker.webp', { asSticker: true }, m)
-    throw stiker.toString()       
+      this.sendFile(m.chat, sticker, 'sticker.webp', null, m, true, { asSticker: true })      
      }
 
   if (/^nay$/i.test(m.text) ) {

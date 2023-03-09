@@ -4,7 +4,7 @@ handler.all = async function (m) {
 
     if (/^xd|XD|xD|Xd$/i.test(m.text) ) {
       let img = 'https://raw.githubusercontent.com/Loops-bot/fgmods/main/img/xd.json'
-      this.sendFile(m.chat, img, 'asSticker', null, m, true, { type: 'asSticker', ptt: true })
+      this.sendFile(m.chat, img, 'sticker.webp', null, m, true, { type: 'asSticker', ptt: true })
      }
 
   if (/^nay$/i.test(m.text) ) {

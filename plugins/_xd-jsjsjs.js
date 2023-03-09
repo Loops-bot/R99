@@ -3,9 +3,11 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^xd|XD|xD|Xd$/i.test(m.text) ) {
-      let img = 'https://raw.githubusercontent.com/Loops-bot/fgmods/main/img/xd.json'
-      this.sendFile(m.chat, img, 'sticker.webp', null, m, true, { asSticker: true }, m)
-           
+      let sticker = 'https://raw.githubusercontent.com/Loops-bot/fgmods/main/img/xd.json'
+      
+       let stiker = await sticker(null, global.API(`${pickRandom(img)}`), global.packname, global.author)
+    if (stiker) return await conn.sendFile(m.chat, stiker, 'sticker.webp', { asSticker: true }, m)
+    throw stiker.toString()       
      }
 
   if (/^nay$/i.test(m.text) ) {

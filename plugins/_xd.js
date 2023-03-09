@@ -1,5 +1,5 @@
 import { sticker } from '../lib/sticker.js'
-import fetch from 'node-fetch'
+
 import axios from 'axios'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {

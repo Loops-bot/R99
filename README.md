@@ -6,7 +6,7 @@
 </p>
 	
 <p  align="center"> 
-<img src="https://gpvc.arturio.dev/FG98F" />
+<img src="https://gpvc.arturio.dev/Loops-bot" />
 <p/>
 <p align="center">
 <a href="https://github.com/Loops-bot"><img title="Author" src="https://img.shields.io/badge/Loops Bot-black?style=for-the-badge&logo=whatsApp"></a>

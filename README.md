@@ -62,6 +62,13 @@ $ npm start
 2. Esperar a que se inicie el bot...
 3. Escanea el código QR desde el segundo dispositivo. (ir a whatsapp > Dispositivos Vinculados > Vincular un dispositivo)
 ---------
+<div align="center">
+  <h1 align="center">EDITOR Y PROPIETARIO DEL BOT</h1>
+
+<a href="https://github.com/Loops-bot"><img src="https://github.com/Loops-bot.png" width="300" height="300" alt="Loops-bot"/></a>
+
+`⍣Loops ᴮᴼᵀ-MD _ By Jose flores`
+  ### `⚘Jose Y Carmen⚘`
 
 
 

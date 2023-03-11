@@ -2,7 +2,7 @@
  
 
 <p align="center"> 
-  <a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
+  <a href="https://github.com/Loops-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
 </p>
 	
 <p  align="center"> 
@@ -23,14 +23,14 @@
 <h3 align="center" > WHATSAPP BOT </h3>
 
 ***
-### Información
+## Información
 - Cambie número de dueño en [Config](https://github.com/FG98F/dylux-fg/blob/main/config.js#L6)
 - Puede cambiar a la última versión de baileys editando el package.json [esta sección](https://github.com/FG98F/dylux-fg/blob/main/package.json#L42)
 
-### FREE APIKEY
+## FREE APIKEY
 -  [click aquí](https://api-fgmods.ddns.net)
 
-### Ejemplo 
+## Ejemplo 
 En caso de duda, antes de instalar Loops-bot, pruebe el bot aquí
 
 [![WhatsApp](https://img.shields.io/badge/Loops-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/Loops-bot)

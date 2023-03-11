@@ -5,7 +5,7 @@
 
 	
 <p  align="center"> 
-	<a href="https://github.com/Loops-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=000000&center=falso&vCenter=falso&lines=LoopsBot-R98++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%99;+Dale+una+estrella+%F0%9F%92%96" height="90px"
+	<a href="https://github.com/Loops-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=18&duration=4000&color=000000&center=falso&vCenter=falso&lines=LoopsBot-R98++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%99;+Dale+una+estrella+%F0%9F%92%96" height="90px"
 </p>
 
 	

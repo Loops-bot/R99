@@ -61,7 +61,14 @@ $ npm start
 ```
 2. Esperar a que se inicie el bot...
 3. Escanea el código QR desde el segundo dispositivo. (ir a whatsapp > Dispositivos Vinculados > Vincular un dispositivo)
----------
+--------
+	  
+	<div align="center">
+  <h1 align="center">COLABORADORES DEL BOT</h1>
+
+<a href="https://github.com/CRIWILOP"><img src="https://github.com/CRIWILOP.png" width="300" height="300" alt="CRIWILOP"/></a>
+	<a href="https://github.com/FG98F"><img src="https://github.com/FG98F.png" width="300" height="300" alt="FG98F"/></a>	
+
 <div align="center">
   <h1 align="center">EDITOR Y PROPIETARIO DEL BOT</h1>
 

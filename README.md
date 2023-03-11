@@ -2,7 +2,7 @@
  
 
 <p align="center"> 
-  <a href="https://github.com/Loops-bot"><img src="fg_logo.jpg?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%90%88" height="90px"
+  <a href="https://github.com/Loops-bot"><img src="?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%90%88" height="90px"
 </p>
 	
 <p  align="center"> 

@@ -1,7 +1,7 @@
 
 <p  align="center"> 
 
-<a src="https://raw.githubusercontent.com/Loops-bot/R99/main/src/fg_logo.jpg" width="300" height="300" />
+<img src="https://raw.githubusercontent.com/Loops-bot/R99/main/src/fg_logo.jpg" width="300" height="300" />
 
 	
 <p  align="center"> 

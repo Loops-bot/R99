@@ -1,3 +1,4 @@
+<p  align="center"> 
 <a href="https://git.io/typing-svg"><img src="http://readme-typing-svg.herokuapp.com?font=C%C3%B3digo+Fira&pause=1000&color=2400F7&background=FF0000&center=verdadero&vCenter=verdadero&repeat=FALSO&width=435&lines=Loops-bot-md+%F0%9F%92%8E;Gracias+por+visitar+este+repositorio+" alt="Typing SVG" /></a>
  
 	

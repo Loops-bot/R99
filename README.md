@@ -2,7 +2,7 @@
  
 
 <p align="center"> 
-  <a href="https://github.com/Loops-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"
+  <a href="https://github.com/Loops-bot"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=LoopsBot-R99++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%90%88" height="90px"
 </p>
 	
 <p  align="center"> 
@@ -12,10 +12,10 @@
 <a href="https://github.com/Loops-bot"><img title="Author" src="https://img.shields.io/badge/Loops Bot-black?style=for-the-badge&logo=whatsApp"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/FG98F?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Loops-bot?label=Followers&style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Loops-bot/R98?&style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Loops-bot/R98?style=social"></a>
-<a href="https://github.com/FG98F/dylux-fg/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Loops-bot/R98?label=Watching&style=social"></a>
+<a href="https://github.com/Loops-bot?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Loops-bot?label=Followers&style=social"></a>
+<a href="https://github.com/Loops-bot/R99/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Loops-bot/R98?&style=social"></a>
+<a href="https://github.com/Loops-bot/R99/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Loops-bot/R98?style=social"></a>
+<a href="https://github.com/Loops-bot/R99/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Loops-bot/R98?label=Watching&style=social"></a>
 </p>
 
 

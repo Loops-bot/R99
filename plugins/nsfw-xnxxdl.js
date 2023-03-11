@@ -23,7 +23,7 @@ switch (type) {
           ['🎥 MP4', `${usedPrefix}xnxxdl ${v.link}`, `▢ 📌 *Título* : ${v.title}`]
         ]])
 	})
-	return conn.sendList(m.chat, '  ≡ *XNXX DL*🔎', `\n 🔞 Resultados de:\n *${text}*`, fgig, `Click Aquí`, listSections, m)
+	return conn.sendList(m.chat, '  ≡ *XNXX DL*🔎', `\n 🔞 Resultados de:\n *${text}*`, saludo, `Click Aquí`, listSections, m)
 	} catch (e) {
     m.reply(`🔴 Error: intenta con otro`)
      }
@@ -38,7 +38,7 @@ switch (type) {
 ▢ *📌Título*: ${xn.result.title}
 ▢ *⌚Duración:* ${xn.result.duration}
 ▢ *🎞️Calidad:* ${xn.result.quality}
-`.trim(), m, false, { asDocument: chat.useDocument })
+`.trim(), m, false, { asVideo: chat.useVideo })
  m.react(done)
  } catch (e) {
 m.reply(`🔴 Error : intenta con otro link`)

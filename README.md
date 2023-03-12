@@ -50,9 +50,10 @@ En caso de duda, antes de instalar Loops-bot, pruebe el bot aquí
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
-### TERMUX
+
+### <a href="https://git.io/typing-svg"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&multiline=true&width=435&lines=INSTALACI%C3%93N+EN+TERMUX+" alt="Typing SVG" /></a>	
 1. 
-```sh
+```
 $ pkg upgrade -y && pkg update -y
 $ pkg install git -y
 $ pkg install nodejs -y

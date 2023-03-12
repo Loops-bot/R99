@@ -71,8 +71,12 @@ $ npm start
 	  
   <div align="center">
   <h1 align="center">COLABORADORES DEL BOT</h1>
+	  
 
-<a href="https://github.com/CRIWILOP"><img src="https://github.com/CRIWILOP.png" width="300" height="300" alt="CRIWILOP"/></a> <a href="https://github.com/FG98F"><img src="https://github.com/FG98F.png" width="300" height="300" alt="FG98F"/></a>		
+<a href="https://github.com/CRIWILOP"><img src="https://github.com/CRIWILOP.png" width="300" height="300" alt="CRIWILOP"/></a>
+	  
+<div align="center">  
+<a align="center" href="https://github.com/FG98F"><img src="https://github.com/FG98F.png" width="300" height="300" alt="FG98F"/></a>		
 		
 
 <div align="center">

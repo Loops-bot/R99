@@ -28,6 +28,7 @@
 
 ***
 ## Información
+	<a href="https://git.io/typing-svg"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&multiline=true&width=435&lines=Información+" alt="Typing SVG" /></a>	
 - Cambie número de dueño en [Config](https://github.com/FG98F/dylux-fg/blob/main/config.js#L6)
 - Puede cambiar a la última versión de baileys editando el package.json [esta sección](https://github.com/FG98F/dylux-fg/blob/main/package.json#L42)
 
